@@ -16,13 +16,13 @@
 		387996691B724A4F002AF433 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 387996681B724A4F002AF433 /* Images.xcassets */; };
 		3879966C1B724A4F002AF433 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3879966A1B724A4F002AF433 /* LaunchScreen.xib */; };
 		387996781B724A4F002AF433 /* CatchEmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 387996771B724A4F002AF433 /* CatchEmTests.m */; };
-		387996831B724C09002AF433 /* cloudyBG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 387996821B724C09002AF433 /* cloudyBG.jpg */; };
-		387996851B72506B002AF433 /* stacks-basket.png in Resources */ = {isa = PBXBuildFile; fileRef = 387996841B72506B002AF433 /* stacks-basket.png */; };
-		387996871B7253D2002AF433 /* birdy_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 387996861B7253D2002AF433 /* birdy_green.png */; };
 		387996891B7255A3002AF433 /* scoreNumber.png in Resources */ = {isa = PBXBuildFile; fileRef = 387996881B7255A3002AF433 /* scoreNumber.png */; };
-		3879968C1B7258E9002AF433 /* birds_cardinal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3879968B1B7258E9002AF433 /* birds_cardinal.mp3 */; };
 		3879968E1B72594E002AF433 /* hit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3879968D1B72594E002AF433 /* hit.mp3 */; };
 		387996901B725994002AF433 /* catch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3879968F1B725994002AF433 /* catch.mp3 */; };
+		387996961B73B171002AF433 /* stacks-basket.png in Resources */ = {isa = PBXBuildFile; fileRef = 387996951B73B171002AF433 /* stacks-basket.png */; };
+		387996981B7511EF002AF433 /* egg.png in Resources */ = {isa = PBXBuildFile; fileRef = 387996971B7511EF002AF433 /* egg.png */; };
+		3879969C1B7513F9002AF433 /* wet-catch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3879969B1B7513F9002AF433 /* wet-catch.mp3 */; };
+		3879969E1B75149A002AF433 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3879969D1B75149A002AF433 /* bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,13 +52,13 @@
 		387996711B724A4F002AF433 /* CatchEmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatchEmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		387996761B724A4F002AF433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		387996771B724A4F002AF433 /* CatchEmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatchEmTests.m; sourceTree = "<group>"; };
-		387996821B724C09002AF433 /* cloudyBG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cloudyBG.jpg; sourceTree = "<group>"; };
-		387996841B72506B002AF433 /* stacks-basket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stacks-basket.png"; sourceTree = "<group>"; };
-		387996861B7253D2002AF433 /* birdy_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = birdy_green.png; sourceTree = "<group>"; };
 		387996881B7255A3002AF433 /* scoreNumber.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scoreNumber.png; sourceTree = "<group>"; };
-		3879968B1B7258E9002AF433 /* birds_cardinal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = birds_cardinal.mp3; sourceTree = "<group>"; };
 		3879968D1B72594E002AF433 /* hit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hit.mp3; sourceTree = "<group>"; };
 		3879968F1B725994002AF433 /* catch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = catch.mp3; sourceTree = "<group>"; };
+		387996951B73B171002AF433 /* stacks-basket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stacks-basket.png"; sourceTree = "<group>"; };
+		387996971B7511EF002AF433 /* egg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = egg.png; sourceTree = "<group>"; };
+		3879969B1B7513F9002AF433 /* wet-catch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "wet-catch.mp3"; sourceTree = "<group>"; };
+		3879969D1B75149A002AF433 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,10 +146,10 @@
 		387996811B724BC6002AF433 /* CatchemResources */ = {
 			isa = PBXGroup;
 			children = (
+				3879969D1B75149A002AF433 /* bg.png */,
+				387996971B7511EF002AF433 /* egg.png */,
 				387996881B7255A3002AF433 /* scoreNumber.png */,
-				387996861B7253D2002AF433 /* birdy_green.png */,
-				387996821B724C09002AF433 /* cloudyBG.jpg */,
-				387996841B72506B002AF433 /* stacks-basket.png */,
+				387996951B73B171002AF433 /* stacks-basket.png */,
 			);
 			name = CatchemResources;
 			sourceTree = "<group>";
@@ -157,7 +157,7 @@
 		3879968A1B725816002AF433 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				3879968B1B7258E9002AF433 /* birds_cardinal.mp3 */,
+				3879969B1B7513F9002AF433 /* wet-catch.mp3 */,
 				3879968D1B72594E002AF433 /* hit.mp3 */,
 				3879968F1B725994002AF433 /* catch.mp3 */,
 			);
@@ -244,16 +244,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				387996851B72506B002AF433 /* stacks-basket.png in Resources */,
-				387996871B7253D2002AF433 /* birdy_green.png in Resources */,
 				3879966C1B724A4F002AF433 /* LaunchScreen.xib in Resources */,
+				3879969E1B75149A002AF433 /* bg.png in Resources */,
 				387996691B724A4F002AF433 /* Images.xcassets in Resources */,
 				3879968E1B72594E002AF433 /* hit.mp3 in Resources */,
+				387996961B73B171002AF433 /* stacks-basket.png in Resources */,
 				387996611B724A4F002AF433 /* GameScene.sks in Resources */,
-				387996831B724C09002AF433 /* cloudyBG.jpg in Resources */,
 				387996671B724A4F002AF433 /* Main.storyboard in Resources */,
+				3879969C1B7513F9002AF433 /* wet-catch.mp3 in Resources */,
 				387996891B7255A3002AF433 /* scoreNumber.png in Resources */,
-				3879968C1B7258E9002AF433 /* birds_cardinal.mp3 in Resources */,
+				387996981B7511EF002AF433 /* egg.png in Resources */,
 				387996901B725994002AF433 /* catch.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
